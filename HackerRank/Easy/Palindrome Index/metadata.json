@@ -1,0 +1,15 @@
+{
+  "title": "Palindrome Index",
+  "title_slug": "palindrome-index",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/palindrome-index/problem",
+  "tags": [],
+  "description": "Given a string of lowercase letters in the range ascii[a-z], determine the index of a character that can be removed to make the string a [palindrome](https://en.wikipedia.org/wiki/Palindrome).  There may be more than one solution, but any will do.  If the word is already a palindrome or there is no solution, return *-1*.  Otherwise, return the index of a character to remove.\n\n**Example** **\n\nEither remove *'b'* at index  or *'c'* at index .\n\nFunction Description**\n\nComplete the *palindromeIndex* function in the editor below.\n\npalindromeIndex has the following parameter(s):\n\n* *string s:* a string to analyze\n\n**Returns**\n\n* *int:* the index of the character to remove or\n\n**Input Format**\n\nThe first line contains an integer , the number of queries. **\nEach of the next  lines contains a query string .\n\nConstraints**\n\n*\n\n*\n\n* All characters are in the range ascii[a-z].\n\n**Sample Input**\n\n```\nSTDIN   Function\n-----   --------\n3       q = 3\naaab    s = 'aaab' (first query)\nbaa     s = 'baa'  (second query)\naaa     s = 'aaa'  (third query)\n\n```\n\n**Sample Output**\n\n```\n3\n0\n-1\n\n```\n\n**Explanation**\n\n*Query 1: \"aaab\"* **\nRemoving *'b'* at index  results in a palindrome, so return .\n\n*Query 2: \"baa\"*\n\nRemoving *'b'* at index  results in a palindrome, so return .\n\n*Query 3: \"aaa\"*\n\nThis string is already a palindrome, so return .  Removing any one of the characters would result in a palindrome, but this test comes first.\n\nNote:** The custom checker logic for this challenge is available [here](https://gist.github.com/shashank21j/58df3865a95bf960092c).",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-22T12:48:28.879Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "palindrome-index"
+}
